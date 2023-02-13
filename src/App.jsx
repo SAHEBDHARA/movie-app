@@ -51,8 +51,8 @@ function App() {
   )
 
   return (
-    <div className="max-w-[1240px] shadow-xl min-h-[400px] mx-auto p-3">
-      <input type="search" value={search} onChange={(e)=>setSearch(e.target.value)} className="w-full border border-black rounded text-slate-700 p-4" />
+    <div className="max-w-[1140px] shadow-xl min-h-[400px] mx-auto p-3">
+      <input type="search" value={search} onChange={(e)=>setSearch(e.target.value)} placeholder="Search a Movie sir..." className="w-full border border-black rounded text-slate-700 p-4 nat-search font-poppins" />
       {
         movies.length === 0
           ?

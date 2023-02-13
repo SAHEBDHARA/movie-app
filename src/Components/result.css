@@ -1,0 +1,35 @@
+.single-box{
+    border-radius: 6px;
+    padding: 0 0 20px 0;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+}
+
+body{
+    background: rgb(32,62,74);
+    background: linear-gradient(266deg, rgba(32,62,74,1) 0%, rgba(9,14,24,1) 100%);
+    color:white;
+}
+.bg{
+    background-color: var(--black-color);
+    font-size: 10px !important;
+}
+.img-mv{
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.nat-search{
+    color:var(--black-color);
+    outline: none;
+}
+.font-mont{
+    font-size: 18px !important;
+}
+.nat-rating{
+    color:black;
+    background-color: goldenrod;
+    border-radius:4px;
+    padding: 0 5px !important;
+}
