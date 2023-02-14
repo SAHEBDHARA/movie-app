@@ -40,7 +40,6 @@ function App() {
   useEffect(
     () => {
       setMovies([]);
-      // console.log("Hello");
       if (search === "") {
         getAllMovies();
       } else {
